@@ -1,9 +1,13 @@
 {
-  "name": "ciclyc-api",
+  "name": "vercel-api",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
-  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon server.js"
+  },
+  "license": "ISC",
   "dependencies": {
     "argon2": "^0.30.3",
     "connect-session-sequelize": "^7.1.5",
